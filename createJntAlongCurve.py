@@ -1,6 +1,6 @@
 import maya.cmds as mc
 
-myWindow = title = "create joint chain along curve selected")
+myWindow = mc.window(title = "create joint chain along curve selected")
 mc.rowColumnLayout(nc = 2)
 mc.text(l = "joint amount:")
 jntAmountIF = mc.IntField(v = 5, min = 2)
